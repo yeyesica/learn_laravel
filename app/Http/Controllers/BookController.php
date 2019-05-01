@@ -57,7 +57,7 @@ class BookController extends Controller
      * @param  \App\book  $book
      * @return \Illuminate\Http\Response
      */
-    public function show(book $book)
+    public function show($id)
     {
         $book = book::find($id);
         return view ('book.detail', compact('book'));
@@ -114,6 +114,6 @@ class BookController extends Controller
         $book = book::find($id);
         $book->delete();
         return redirect() -> route('book.index')
-                          -> with('success','Booklist successfully Deleted');
+                          -> with('success','Booklist successfully Deleteed');
     }
 }
