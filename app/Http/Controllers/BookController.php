@@ -100,7 +100,7 @@ class BookController extends Controller
             $book->save();
     
             return redirect() -> route('book.index')
-                              -> with('success','New Booklist successfully Update');
+                              -> with('success','New Booklist successfully Updatee');
     }
 
     /**

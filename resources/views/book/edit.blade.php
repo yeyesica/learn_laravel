@@ -39,8 +39,8 @@
 				<input type="text" name="pengarang" class="form-control" value="{{$book->pengarang}}">
 			</div>
 			<div class="col-md-12"><br>
-				<a href="{{ route('book.index')}}" class="btn btn-sm btn-success">Back</a>
-				<button type="submit" class="btn btn-sm btn-primary">Save</button>
+				<a href="{{ route('book.index')}}" class="btn btn-sm btn-success">Backk</a>
+				<button type="submit" class="btn btn-sm btn-primary">Saved</button>
 			</div>
 		</div>
 	</form>
